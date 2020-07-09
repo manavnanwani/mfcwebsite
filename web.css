@@ -66,7 +66,7 @@ ul{
 
 /*LANDING PAGE*/
 .jumbotron {
-	height: 750px;
+	height: 800px;
 	background-image: url(imgs/gif2.gif);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -109,7 +109,7 @@ ul{
 	margin-bottom: 0 !important;
 }
 .fa-angle-double-down{
-	margin-top: 30px;
+	margin-top: 60px;
 	font-size: 2.3rem;
 	color: orange;
 }
@@ -166,34 +166,63 @@ ul{
 	border-radius: 0 !important;
 	background-color: transparent !important;
 	border-color: transparent !important;
-
 }
 .card-title{
 	margin-bottom: 0 !important;
+}
+.card-img{
+	opacity: 1;
+	transition: opacity 0.4s ease-in;
 }	
 .cover{
 	height: 0;
-	display: none;
 	border-radius: 20px !important;
-	padding-top: 25% !important;
 	background-color: transparent;
-	transition: 0.5s linear !important;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
 }
 .card:hover .card-img{
 	display: none;
-	transition: 0.5s linear !important;
+	opacity: 0;
+	transition: opacity 0.4s ease-out;
 }
 .card:hover .cover{
+	padding-top: 30px !important;
 	display: block;
 	height: 100%;
-	transition: 0.5s linear !important;
+	opacity: 1;
+	transition: opacity 0.4s ease-in;
 }
 .card:hover .card-body{
 	border-radius: 20px !important;
-	transition: 0.5s linear !important;
+}
+.card:hover .card-title{
+	color: orange;
 }
 
 
+
+#division {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    color: rgba(255,255,255,.5);
+}
+#division:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    color: rgba(255,255,255,.5);
+    border-radius: 20px;
+}
 
 
 /*WORKSHOPS AND EVENTS*/
@@ -205,6 +234,45 @@ ul{
 	width: 400px !important;
 	margin: 0 32%;
 }
+.stacked-cards h2 {
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.container-fuild {
+	max-width: 80%;
+	margin: 0 auto;
+}
+.container-fixed {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.stacked-cards {
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.stacked-cards-fanOut {
+	padding-bottom: 40px;
+}
+.stacked-cards-fanOut li img {
+	max-height: 200px;
+}
+.stacked-cards li {
+	height: 300px;
+}
+@media (max-width: 767px) {
+	.stacked-cards li {
+		height: 180px;
+	}
+}
+.stacked-cards li:nth-child(n) {
+	background-color: black;
+}
+.stacked-cards li:nth-child(2n) {
+	background-color: white;
+}
+
+
 
 
 
@@ -233,5 +301,5 @@ ul{
 	color: white;
 }
 #heading_cont{
-	margin-top: 20px;
+	margin-top: 40px;
 }
