@@ -2,7 +2,7 @@ window.addEventListener("load", function()
 {
 	const loader = document.querySelector(".loader");
 	loader.className += " hidden";
-	const mainNav = document.querySelector("#mainNav");
+	const mainNav = document.querySelector(".navbar");
 	mainNav.className += " fixed-top";
 	});
 
