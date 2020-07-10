@@ -1,3 +1,12 @@
+window.addEventListener("load", function()
+{
+	const loader = document.querySelector(".loader");
+	loader.className += " hidden";
+	const mainNav = document.querySelector("#mainNav");
+	mainNav.className += " fixed-top";
+	});
+
+$(document).ready();
 $(function(){
 	$(document).scroll(function(){
 		var $nav = $(".navbar");
