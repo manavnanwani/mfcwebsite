@@ -59,7 +59,7 @@ ul{
 
 /*LANDING PAGE*/
 .jumbotron {
-	height: 800px;
+	height: 100vh;
 	background-image: url(imgs/gif2.gif);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -195,6 +195,7 @@ ul{
 	opacity: 1;
 	transition: opacity 0.4s ease-in;
 	color: orange;
+	justify-content: center;
 }
 .card1:hover .card-body1{
 	border-radius: 20px !important;
