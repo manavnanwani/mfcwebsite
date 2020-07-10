@@ -12,7 +12,8 @@ $(function(){
 		var $nav = $(".navbar");
 		$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
 	})
-})
+});
+
 
 
 const words = ["DEVELOPERS", "DESIGNERS", "CODERS","EVERYONE!!"];
