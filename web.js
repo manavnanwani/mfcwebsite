@@ -79,3 +79,27 @@ var stackedCard = new stackedCards({
 var stackedCardSlide = new stackedCards({
     transformOrigin: "bottom"
 });
+var stackedCardSlide = new stackedCards({
+		 	selector: '.stacked-cards-slide',
+		 	layout: "slide",
+		 	transformOrigin: "center",
+		 });
+
+		stackedCardSlide.init();
+
+
+$(function(){
+	$(window).on("resize", function(){
+		$(".typ").toggleClass("typ1", $(window).width() < "991");
+		$("#gg").toggleClass("typ1", $(window).width() < "991");
+		$(".flex").toggleClass("flex1", $(window).width() < "991");
+		})
+	});
+
+$(function(){
+	if($(window).width() < "991"){
+		$(".typ").toggleClass("typ1");
+		$("#gg").toggleClass("typ1");
+		$(".flex").toggleClass("flex1");
+	}
+});
