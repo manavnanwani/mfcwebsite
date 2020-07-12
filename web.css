@@ -301,9 +301,9 @@ ul{
 
 
 .view {
-    width: 300px;
+    width: 40vw;
     height: 250px;
-    margin: 10px;
+    margin: 10px 6vw;
     float: left;
     border: 0px solid #fff;
     overflow: hidden;
@@ -313,7 +313,7 @@ ul{
     background: #ff7400 url(../images/bgimg.jpg) no-repeat center center
 }
 .view .mask, .view .content {
-    width: 300px;
+    width: 40vw;
     height: 250px;
     position: absolute;
     overflow: hidden;
@@ -363,7 +363,7 @@ ul{
 }
 .view-first .mask {
     opacity: 0;
-    background-color: rgba(219,127,8, 0.7); 
+    background: linear-gradient(to bottom, black, orange); 
     transition: all 0.4s ease-in-out;
     width: 100%;
 }
@@ -401,6 +401,27 @@ ul{
 .view-first:hover a.info {
     transition-delay: 0.2s;
 }
+.btn-outline-warning{
+	float: right;
+	background-color: black !important;
+}
+.btn-outline-warning:hover{
+	float: right;
+	background-color: white !important;
+	color: black !important;
+}
+
+
+
+
+
+/*Our Team*/
+#ourteam{
+	height: 800px;
+	padding: 60px 10%;
+}
+
+
 
 
 
@@ -415,7 +436,7 @@ ul{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 700px;
+	height: 100vh;
 	width: 100%;
 	margin: 0;
 }
