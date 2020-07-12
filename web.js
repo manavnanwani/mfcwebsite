@@ -62,8 +62,8 @@ $(function(){
 		$("#about").toggleClass("active", $(this).scrollTop() > "785" && $(this).scrollTop() < "1810");
 		$("#home").toggleClass("active", $(this).scrollTop() < "785");
 		$("#workshop").toggleClass("active", $(this).scrollTop() > "1810" && $(this).scrollTop() < "3110");
-		$("#team").toggleClass("active", $(this).scrollTop() > "3110" && $(this).scrollTop() < "4010");
-		$("#contact").toggleClass("active", $(this).scrollTop() > "4010");
+		$("#team").toggleClass("active", $(this).scrollTop() > "3110" && $(this).scrollTop() < "3910");
+		$("#contact").toggleClass("active", $(this).scrollTop() > "3910");
 	})
 });
 
