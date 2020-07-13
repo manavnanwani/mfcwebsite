@@ -1,0 +1,97 @@
+body{
+	background-color: orange !important;
+}
+
+
+
+.navbar{
+	color: white !important;
+	background-color: black !important;
+	height: 50px;
+}
+.d-inline-block {
+	margin-right: 10px;
+}
+
+
+
+.sec{
+	padding: 10px 10% !important;
+}
+#events{
+	text-align: center !important;
+	padding-bottom: 40px;
+	font-weight: 600;
+}
+.stacked-cards h2 {
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+.container-fuild {
+	max-width: 80%;
+	margin: 0 auto;
+}
+.container-fixed {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.stacked-cards {
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.stacked-cards-fanOut {
+	padding-bottom: 40px;
+}
+.stacked-cards-fanOut li img {
+	max-height: 200px;
+}
+.stacked-cards li {
+	height: 300px;
+}
+@media (max-width: 767px) {
+	.stacked-cards li {
+		height: 180px;
+	}
+}
+.stacked-cards li:nth-child(n) {
+	background-color: black;
+}
+.stacked-cards li:nth-child(2n) {
+	background-color: white;
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+
+.shadow-lg{
+	height: 300px !important;
+	text-align: center;
+}
+#content{
+	margin-top: 100px;
+}
+.fa-angle-up{
+	font-size: 20px !important;
+	justify-content:center;
+}
+#triangle{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid rgba(0, 0, 0, 0.3);
+	border-radius: 20%;
+}
+
+.page-footer {
+	background-color: black;
+	color: white !important;
+}
