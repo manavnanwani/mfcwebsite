@@ -514,10 +514,10 @@ ul{
  background-position: 50%;
  transform: scale(10, 10);
  opacity: 0;
- transition: transform .5s, opacity 1s;
+ transition: transform .7s, opacity 1s;
 }
 .ripple:hover:after {
  transform: scale(0, 0);
  opacity: .3;
- transition: 0.7s;
+ transition: 0.9s;
 }
