@@ -1,50 +1,18 @@
-
-var stackedCard = new stackedCards({
-	 	selector: '.mycards',
-	 	layout: "fanOut",
-	 	transformOrigin: "bottom"
-	});
-
-	stackedCard.init();
-var stackedCardSlide = new stackedCards({
-    transformOrigin: "bottom"
-});
-var stackedCardSlide = new stackedCards({
-		 	selector: '.stacked-cards-slide',
-		 	layout: "fanOut",
-		 	transformOrigin: "bottom"
-		 });
-
-		stackedCardSlide.init();
-
-
 $(function(){
-	$("#card1").click(function(){
+	$("#s1").click(function(){
 		$("#text").text("First");
 	});
-	$("#card2").click(function(){
+	$("#s2").click(function(){
 		$("#text").text("Second");
 	});
-	$("#card3").click(function(){
+	$("#s3").click(function(){
 		$("#text").text("Third");
 	});
-	$("#card4").click(function(){
+	$("#s4").click(function(){
 		$("#text").text("fourth");
 	});
-	$("#card5").click(function(){
+	$("#s5").click(function(){
 		$("#text").text("FIFTH");
-	});
-	$("#card6").click(function(){
-		$("#text").text("SIXTH");
-	});
-	$("#card7").click(function(){
-		$("#text").text("SEVENTH");
-	});
-	$("#card8").click(function(){
-		$("#text").text("EIGHT");
-	});
-	$("#card9").click(function(){
-		$("#text").text("NINTH");
 	});
 	
 });
@@ -70,5 +38,3 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
-
-
