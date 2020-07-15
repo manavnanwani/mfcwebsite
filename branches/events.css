@@ -155,7 +155,7 @@ ul{
 }
 
 #slider {
-  padding: 80px;
+  margin: 80px;
   height: 50vh;
   position: relative;
   perspective: 800px;
