@@ -563,7 +563,8 @@ ul{
   position: fixed;
   width: 60vw;
   margin-left: 20%;
-  height: 300px;
+  bottom: 10vh;
+  height: 550px;
   background-image: url(imgs/email.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -574,4 +575,17 @@ ul{
 }
 #kk{
   height: 100vh;
+}
+.fa-times{
+  font-size: 1.7rem;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+#con{
+  margin-top: 40px;
+  text-align: center;
+}
+#exampleFormControlTextarea1{
+  height: 120px !important;
 }
