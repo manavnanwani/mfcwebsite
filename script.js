@@ -117,3 +117,7 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
+
+$('#email').click(function(){
+	$('#pop').toggleClass('pop1');
+});
