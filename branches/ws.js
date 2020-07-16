@@ -40,3 +40,5 @@ anime.timeline({loop: true})
 $('#email').click(function(){
 	$('#pop').toggleClass('pop1');
 });
+
+

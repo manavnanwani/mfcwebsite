@@ -122,11 +122,15 @@ ul{
   background-image: url(../imgs/email.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  display: none;
+  display: block;
   border-radius: 30px;
+  transition: visibility 1s, opacity .7s ease-in;  
+  opacity: 0;
+  visibility: hidden;
 }
 .pop1{
-  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;  
 }
 #kk{
   height: 100vh;
