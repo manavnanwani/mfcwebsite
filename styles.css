@@ -284,7 +284,7 @@ ul{
 }
 .stacked-cards h2 {
 	text-align: center;
-	position: relative;
+	position: sticky;
 	top: -20px;
 }
 .container-fuild {
