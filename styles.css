@@ -282,9 +282,12 @@ ul{
 	width: 400px !important;
 	margin: 0 32%;
 }
+.stacked-cards{
+  position: sticky !important;
+}
 .stacked-cards h2 {
 	text-align: center;
-	position: sticky;
+	position: absolute;
 	top: -20px;
 }
 .container-fuild {
