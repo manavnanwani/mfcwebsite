@@ -90,8 +90,11 @@ ul{
   width: 0px;
   height: 7px;
   background-color: red;
+  max-width: 100% !important;
 }
-
+.sticky{
+  top: 50px !important;
+}
 
 
 
@@ -119,12 +122,12 @@ ul{
 }
 .typing {
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 3vw;
 	padding-left: 15px;
 }
 .typ{
 	color: orange !important;
-	font-size: 50px;
+	font-size: 3vw;
 }
 .typ1{
 	font-size: 30px !important;
@@ -137,12 +140,12 @@ ul{
 }
 .flex {
 	margin-top: 5%;
-	margin-left: 17%;
+  margin-left: 17vw;
 	display: flex;
 	text-align: center;
 }
 .flex1 {
-	margin-left: 12% !important;
+	margin-left: 10.5vw !important;
 }
 .jumbotron{
 	margin-bottom: 0 !important;
@@ -536,6 +539,7 @@ ul{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-right: 0;
   padding-left: 50px;
+  cursor: pointer;
 }
 
 #mySidenav a:hover {
@@ -572,6 +576,7 @@ ul{
   padding-right: 0;
   padding-left: 50px;
   top: 68vh;
+    cursor: pointer;
 }
 #email:hover{
   left:0;
@@ -581,8 +586,7 @@ ul{
   width: 60vw;
   margin-left: 20%;
   bottom: 10vh;
-  height: 550px;
-  background-image: url(imgs/email.jpg);
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30px;
@@ -605,10 +609,70 @@ ul{
   top: 10px;
   cursor: pointer;
 }
+.fa-times:hover{
+  color: orange;
+}
+.contact-section{
+  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 0;
+}
 #con{
   margin-top: 40px;
   text-align: center;
 }
-#exampleFormControlTextarea1{
-  height: 120px !important;
+.contact-section h1,h5{
+  text-align: center;
+  color: #ddd;
 }
+.border{
+  width: 100px;
+  height: 10px;
+  border-radius: 5px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px orange;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+

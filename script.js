@@ -82,6 +82,7 @@ $(function(){
 		$(".typ").toggleClass("typ1", $(window).width() < "991");
 		$("#gg").toggleClass("typ1", $(window).width() < "991");
 		$(".flex").toggleClass("flex1", $(window).width() < "991");
+		$(".scroll-progress-container").toggleClass("sticky", $(window).width() < "991");
 		})
 	});
 
@@ -90,6 +91,7 @@ $(function(){
 		$(".typ").toggleClass("typ1");
 		$("#gg").toggleClass("typ1");
 		$(".flex").toggleClass("flex1");
+		$(".scroll-progress-container").toggleClass("sticky");
 	}
 });
 
@@ -138,3 +140,4 @@ $(document).ready(function() {
         $('.scroll-progress').width(scrollPercent + '%');
         });
         });
+
