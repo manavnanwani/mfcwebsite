@@ -544,6 +544,7 @@ ul{
 
 #mySidenav a:hover {
   left: 0; 
+  background-color: black;
 }
 
 #abt {
@@ -580,6 +581,7 @@ ul{
 }
 #email:hover{
   left:0;
+  background-color: black;
 }
 #pop{
   position: fixed;
