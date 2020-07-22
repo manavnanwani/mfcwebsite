@@ -244,6 +244,24 @@ textarea.contact-form-text{
     font-size:14px;
   }
 }
+.core{
+  border-radius: 50%;
+  background-color: white;
+  height: 120px;
+  width: 120px !important;
+  margin-bottom: 0.7rem;
+}
+.core-imgs{
+  column-count: 6;
+}
+@media (max-width: 1176px) {
+  .core-imgs{
+    column-count: 3;
+  }
+}
+
+
+
 
 
 /*FOOTER*/
@@ -255,4 +273,20 @@ textarea.contact-form-text{
 #white,.clearfix{
   color: orange;
   border-color: orange;
+}
+.ml7 {
+  position: relative;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
 }
