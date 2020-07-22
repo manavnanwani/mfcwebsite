@@ -4,8 +4,8 @@
 	<title>OUR EVENTS</title>
 	<link rel="stylesheet" type="text/css" href="events.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="dist/stackedCards.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler  ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,31 +44,34 @@
     </div>
   </nav>
 
+  
+
+  <section id="ss">
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" id="s1">Slide 1</div>
+      <div class="swiper-slide" id="s2">Slide 2</div>
+      <div class="swiper-slide" id="s3">Slide 3</div>
+      <div class="swiper-slide" id="s4">Slide 4</div>
+      <div class="swiper-slide" id="s5">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  </div>
+  </section>
+    
+  
 
 
 
 
-
-	<section class="sec" id="slider">
-	  <input type="radio" name="slider" id="s1">
-	  <input type="radio" name="slider" id="s2">
-	  <input type="radio" name="slider" id="s3" checked>
-	  <input type="radio" name="slider" id="s4">
-	  <input type="radio" name="slider" id="s5">
-	  <label for="s1" id="slide1"></label>
-	  <label for="s2" id="slide2"></label>
-	  <label for="s3" id="slide3"></label>
-	  <label for="s4" id="slide4"></label>
-	  <label for="s5" id="slide5"></label>
-	</section>  
-	<div id="content">
-		<center><div id="triangle"></div></center>
-		<div class="shadow-lg p-3 mb-5 bg-yellow rounded">
-			<p id="text">
-        THIRD
-			</p>
-		</div>
-	</div>
 
 
 <footer class="page-footer font-small stylish-color-lite pt-4">
@@ -163,9 +166,8 @@
 
 
 
-
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-	<script src="dist/stackedCards.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="events.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

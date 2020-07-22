@@ -576,7 +576,7 @@ ul{
   padding-right: 0;
   padding-left: 50px;
   top: 68vh;
-    cursor: pointer;
+  cursor: pointer;
 }
 #email:hover{
   left:0;

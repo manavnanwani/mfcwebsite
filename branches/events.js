@@ -14,26 +14,83 @@ $(function(){
 	})
 });
 
-
-
-$(function(){
-	$("#s1").click(function(){
-		$("#text").text("First");
-	});
-	$("#s2").click(function(){
-		$("#text").text("Second");
-	});
-	$("#s3").click(function(){
-		$("#text").text("Third");
-	});
-	$("#s4").click(function(){
-		$("#text").text("fourth");
-	});
-	$("#s5").click(function(){
-		$("#text").text("FIFTH");
-	});
-	
+$('#email').click(function(){
+  $('#pop').toggleClass('pop1');
 });
+$('.fa-times').click(function(){
+  $('#pop').toggleClass('pop1');
+});
+
+
+
+
+
+
+
+
+
+
+
+// .swiper-slide-active
+	var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        delay: 2500,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    });
+
+// var swiper = new Swiper('.swiper-container', {
+//       spaceBetween: 30,
+//       centeredSlides: true,
+//       autoplay: {
+//         delay: 2500,
+//         disableOnInteraction: false,
+//       },
+//       pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//       },
+//       navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//       },
+//     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 var textWrapper = document.querySelector('.ml7 .letters');
@@ -58,9 +115,3 @@ anime.timeline({loop: true})
   });
 
 
-$('#email').click(function(){
-	$('#pop').toggleClass('pop1');
-});
-$('.fa-times').click(function(){
-	$('#pop').toggleClass('pop1');
-});
