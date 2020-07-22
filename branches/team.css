@@ -16,9 +16,16 @@ body{
   justify-content: center;
   align-items: center;
 }
+#navbarNav{
+  justify-content: center;
+  transition: all 0.7s;
+}
 .loader.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
+}
+.nav-link{
+  text-align: center;
 }
 
 @keyframes fadeOut {
@@ -40,9 +47,6 @@ body{
 .navbar.scrolled {
   background-color: black;
   transition: all 500ms;
-}
-#navbarNav{
-  margin-left: 20%;
 }
 ul{
   margin-top: 10px !important;

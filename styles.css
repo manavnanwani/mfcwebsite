@@ -586,8 +586,7 @@ ul{
   position: fixed;
   width: 60vw;
   margin-left: 20%;
-  bottom: 10vh;
-  height: 80vh;
+  top: 80px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 30px;
